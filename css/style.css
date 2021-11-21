@@ -1,0 +1,23 @@
+html {
+    background-color: #131111;
+}
+body ,p {
+  overflow: hidden !important;
+  overflow-anchor: none ;
+  margin: 0;
+}
+
+p {
+  text-align: justify;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  background-image: url("../img/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: grayscale(100%);
+}
